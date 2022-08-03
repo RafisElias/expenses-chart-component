@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <header role="header">
+      <div>
+        <p class="header--title">My balance</p>
+        <p class="header--balance">$921.48</p>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </header>
+    <main>
+      <h1>Spending - Last 7 days</h1>
+      <div class="graph">
+        <div class="graph--container" data-day="mon">
+          <p>mon</p>
+        </div>
+        <div class="graph--container" data-day="tue">
+          <p>tue</p>
+        </div>
+        <div class="graph--container" data-day="wed">
+          <p>wed</p>
+        </div>
+        <div class="graph--container" data-day="thu">
+          <p>thu</p>
+        </div>
+        <div class="graph--container" data-day="fri">
+          <p>fri</p>
+        </div>
+        <div class="graph--container" data-day="sat">
+          <p>sat</p>
+        </div>
+        <div class="graph--container" data-day="sun">
+          <p>sun</p>
+        </div>
+      </div>
+      <hr />
+      <div class="flex justify-between">
+        <div>
+          <p>Total this month</p>
+          <p class="balance"></p>
+        </div>
+        <div class="self-end">
+          <p class="percentage"><b>+2.4%</b></p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </main>
+  </section>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Rafael Elias</a>.
+  </footer>
+</body>
+
+</html>
