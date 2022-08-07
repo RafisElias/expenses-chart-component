@@ -198,9 +198,8 @@ main {
 .graph--column[data-amount]:active::before {
   content: "" attr(data-amount);
   position: absolute;
-  left: 50%;
-  top: -33px;
-  transform: translateX(-50%);
+  inset: -2rem 0 auto 0;
+  margin-inline: auto;
   background-color: var(--cls-dark-brown);
   color: var(--cls-cream);
   border-radius: .25rem;
