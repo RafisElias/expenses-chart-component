@@ -16,7 +16,6 @@ window.onload = async function () {
     totalAmount += element.amount;
   }
 
-  console.log(hash, totalAmount);
   const days = [...document.querySelectorAll('[data-day]')];
   days.map(day => {
     const height = hash[day.dataset.day] >= 100 ? '100%' : `${hash[day.dataset.day]}%`;
